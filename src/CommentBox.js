@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import CommentList from './CommentList';
 import CommentForm from './CommentForm';
 import DATA from './data';
-import style from './style';
+import style from './styles';
 
 class CommentBox extends Component{
   
@@ -27,4 +27,4 @@ class CommentBox extends Component{
 
 }
 
-export default commentBox;
+export default CommentBox;
